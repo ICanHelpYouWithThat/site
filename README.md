@@ -12,11 +12,13 @@ Create events that require skills at a location for a certain timeframe, give Ka
 
 
 Simple UI with a few screens that have simple forms to enter in data
-- JavaScript - Angular2/React front-end
+- HTML - JavaScript - Simple UI - Angular2/React/JQuery front-end
 
 Simple Services which will read, update, create data about the individual user, organization, event
-- Node Services, PHP
+- NodeJS
 
 Simple Datastore which will store user info, organization info, event info which requires skill and relationship between user and event skills.
-- Simple MariaDB or MongoDB
+- MySQL DB
+
+Location Google Apps
 
