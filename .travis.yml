@@ -1,0 +1,9 @@
+deploy:
+  provider: gcs
+  access_key_id: GOOGDBZDPDEDBTQFO7N3
+  secret_access_key:
+    secure: tqa3pGM8Q14Ygc2QeFz30j108SSSD9ZwYiDtzOdVSrBQ3o5naPazmqbo0eFNyPWU+MAxg6bHM2egEjUF3Yknyl8kI+0oIsGRf4n+NYcryZqoLnAR6iHobp2H5aK/QL1Z4UfhBMhVQFn1yNhoGm00jCXhP6tlTkCduu+jGXWjo9l+cR9NyfFs5eljZSID+rh5pzlOVetwU1WQuf5TJ1ap7+PpJNNx7bt3Wp0uI/l+cUFjnsR7S/WsnObeQoqnv6h8I4LuOACB5zfd5fEPXctl9UfrOs1m4eBr7wySH9YHo+hG6lUpmGwmctibhdiDoUfFo16g6BgcmE4+EcRM9ZnCHGBcenCrLjjiH0xVqNv8oWZFD/XO/CYqwKsCZo4vTSYHzp5t4V75EWbgsW+VouR6MVF3uXi9Kq1O2f/QAgBN5gqkvWYq7qNUQk/LQ5vw6EKW46n9S+LO4qJiu3cQIjHsm85pBjGqP9CWhfBoujCWnQptRvd7fS0fPE4cPk98YaBatWfZi0irs/j5lR8pG2BwFNNzc5grFoOSfESEzSZyn4e43fzBG3/c0uEf7+t46ARYAlY2o0bR16ks0zuRYr7grKTfk8CQEwDM7W0qh64Nnnvz/eG4llNiEZJ3dJa6GHoLN80zk5/qu8XbB4eDtC1xUeSeuhYQ7KpMqO+s3RqDQ9A=
+  bucket: icanhelpyouwiththat.org
+  local-dir: .
+  on:
+    repo: ICanHelpYouWithThat/site
