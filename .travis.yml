@@ -1,4 +1,5 @@
 language: node_js
+script: true
 deploy:
   provider: gcs
   access_key_id: GOOGDBZDPDEDBTQFO7N3
